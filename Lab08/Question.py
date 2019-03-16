@@ -6,6 +6,7 @@ Created on Mon Jun 25 09:04:13 2018
 """
 class Question:
     def __init__(self, question, answer, score):
+        print "test"
         self.__questionText = question
         self.__correctAnswer = answer
         self.__score = int(score)
